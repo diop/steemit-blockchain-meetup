@@ -1,7 +1,7 @@
 console.log('Javascript Sanity Check!!!')
 function postArticle() {
   steem.broadcast.comment(
-    document.getElementById('postingKey'.value, // posting wif
+    document.getElementById('postingKey').value, // posting wif
     '', // author, leave blank for new post
     'steemtest', // first tag
     document.getElementById('username').value, // username
@@ -11,8 +11,9 @@ function postArticle() {
     // Json metadata (additional tags, app name )
     { tag: ['secondtag'], app: 'steemtest'},
     function (err, result) {
+      console.log('error', err)
+      console.log('result', result)
       err ? alert('Failure', + err) : alert('Success!')
     }
-    )
   )
 }
