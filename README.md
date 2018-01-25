@@ -1,5 +1,6 @@
 ## Introduction to the Steemit Blockchain
-[https://steem.io/](https://steem.io/)
++ [Steem.io](https://steem.io/)
++ [SteemJS](https://github.com/steemit/steem-js)
 
 ## Presenters
 + [Fodé Diop](https://steemit.com/@fode)
