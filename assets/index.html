@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script type="text/javascript" src="/script.js"></script>
     <script type="text/javascript" src="http://cdn.steemjs.com/lib/latest/steem.min.js"></script>
     <title>Steem Blockchain Meetup</title>
   </head>
@@ -11,14 +10,15 @@
     <div class="container">
       <h1>Post to Steem Blockchain</h1>
       <label for="username">Username</label><br />
-      <input id="username" type="text"><br />
+      <input id="username" type="text" /><br />
       <label for="posting-ey">Posting Key</label><br />
-      <input id="postingKey" type="password" size="65"><br />
+      <input id="postingKey" type="password" size="65" /><br />
       <label for="postingTitle">Posting Title</label><br />
-      <input id="title" type="text"><br />
+      <input id="title" type="text" size="32" /><br />
       <label for="article">Post Article</label><br />
       <textarea id="article" type="text"></textarea><br />
-      <input id="postIt" type="button" class="btn btn-primary" value="Post it!" onclick="postArticle()">
+      <input id="postIt" type="button" class="btn btn-primary" value="Post it!" onclick=postArticle() />
     </div>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
