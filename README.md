@@ -21,3 +21,4 @@
 + [Steem Success Series - Tim Cliff](https://www.youtube.com/watch?v=8fJlwq7kks4)
 + [How to Build a SteemBot](https://github.com/Steem-FOSSbot/steem-fossbot-voter)
 + [Steem Dev](https://steemit.com/trending/steemdev)
++ [Essential Guide to Becoming a Steem Witness](https://steemit.com/steemhelp/@steemed/become-a-steem-witness-essentials)
