@@ -25,3 +25,6 @@
 + [Essential Guide to Becoming a Steem Witness](https://steemit.com/steemhelp/@steemed/become-a-steem-witness-essentials)
 + [Steem Witness List](https://steemit.com/~witnesses)
 + [Utopian React Jobs](https://busy.org/utopian-io/@utopian-io/usd5k-bounties-urgent-tasks-before-kickstarter-react-devs)
+
+## References
++ [Upvote example](https://steemit.com/@joeparys/transfers)
